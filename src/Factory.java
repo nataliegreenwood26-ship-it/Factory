@@ -31,6 +31,7 @@ public class Factory {
         h1.size=200;
         h1.walls=10;
         h1.address= "126 manet road";
+        h1.isOccupied=true;
 
     }
 
