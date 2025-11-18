@@ -32,10 +32,20 @@ public class Factory {
         h1.walls=10;
         h1.address= "126 manet road";
         h1.isOccupied=true;
+        House h2 = new House();
+        h2.printInfo();
+
+        House myhouse = new House();
+        myhouse.printInfo();
+
+        House customHouse = new House(200.24,5,"Mrs.Blair" );
+
+        customHouse.printInfo();
 
     }
 
     public void factoryInfo() {
+
 
 
     }
