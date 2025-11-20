@@ -42,6 +42,11 @@ public class Factory {
 
         customHouse.printInfo();
 
+        Squash mysquash = new Squash();
+        mysquash.printinfo();
+        Squash customsquash = new Squash(10,"Agnus","Tim",false);
+
+
     }
 
     public void factoryInfo() {
