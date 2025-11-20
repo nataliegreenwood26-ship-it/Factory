@@ -26,10 +26,12 @@ public class House {
     //fix the related problems by adding them to the code in the factory class
 
 
-    public House(double psize, int pWalls,String pOwner) {
+    public House(double psize, int pWalls,String pOwner,String paddress, boolean pisOccupied) {
         size = psize;
         walls = pWalls;
         owner = pOwner;
+        address = paddress;
+        isOccupied = pisOccupied;
 
 
     }

@@ -38,7 +38,7 @@ public class Factory {
         House myhouse = new House();
         myhouse.printInfo();
 
-        House customHouse = new House(200.24,5,"Mrs.Blair" );
+        House customHouse = new House(200.2,5,"Mrs.Blair","126 Manet Road",true);
 
         customHouse.printInfo();
 
